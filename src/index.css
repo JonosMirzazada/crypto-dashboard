@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+/* Spinner */
+.spinner {
+    @apply border-4 border-gray-300 border-t-green-500 rounded-full w-10 h-10 animate-spin mx-auto my-5;
+}
+
+.spinner-container {
+    @apply flex flex-col items-center justify-center h-screen;
+}
+
+.app-container {
+    @apply p-4 min-h-screen w-full bg-gray-900 text-white;
+}
+
+/* Grid layout */
+.coins-grid.grid {
+    @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-6;
+}
+
+/* List layout */
+.coins-grid.list {
+    @apply flex flex-col gap-3 mt-6;
+}
+
+.coin-card {
+    @apply bg-gray-800 p-4 rounded-xl shadow flex justify-between items-center transition hover:scale-[1.02];
+}
+
+/* Make list view cleaner */
+.list .coin-card {
+    @apply flex-row;
+}
+
+.grid .coin-card {
+    @apply flex-col items-start;
+}
+
+.grid .coin-stats {
+    @apply text-left w-full mt-2;
+}
