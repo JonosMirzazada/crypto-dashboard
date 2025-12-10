@@ -35,3 +35,11 @@ Track real-time cryptocurrency prices, market data, and visualize price changes 
 git clone https://github.com/DITT_USERNAME/crypto-dashboard.git
 cd crypto-dashboard
 
+---
+
+## Instal dependecis 
+npm install
+
+## Start the development server:
+npm run dev
+
