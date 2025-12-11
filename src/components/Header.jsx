@@ -43,7 +43,7 @@ function Header({ search, setSearch, view, setView, sort, setSort }) {
                     </select>
                 </div>
 
-                // {/* Grid/List toggle */}
+                {/* Grid/List toggle */}
                 <div className="flex gap-2">
                     <button
                         onClick={() => setView("grid")}
