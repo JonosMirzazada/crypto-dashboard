@@ -33,6 +33,20 @@ Click on a coin to view detailed information and a 7-day price chart.
 
 ---
 
+## Home Page:
+he main dashboard showing a list of cryptocurrencies with live prices, market caps, and 24h change indicators. Users can search, sort, and switch between grid and list views.
+
+<img width="959" height="506" alt="image" src="https://github.com/user-attachments/assets/f156ea96-f02d-4389-bf16-00566f4ddf59" />
+
+---
+
+## Coine Detail:
+Detailed view for a selected cryptocurrency, including current price, market cap, 24h change, and a 7-day price chart.
+
+<img width="959" height="506" alt="image" src="https://github.com/user-attachments/assets/8cdec26c-8e7d-4fb1-a2cc-b436178b0f83" />
+
+
+
 ## Installation
 
 1. Clone the repository:
